@@ -1,0 +1,26 @@
+.navHeader {
+  max-width: 1700px;
+  width: 100%;
+  height: 7vh;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+}
+a:hover{
+    color: aquamarine;
+}
+.header{
+  background-color: yellow;
+  color: white;
+  margin-left: 50px;
+}
+.headerLink{
+  background-color: red;
+  margin-right: 100px;
+}
