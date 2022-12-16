@@ -5,6 +5,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { Provider } from "react-redux";
 import { BrowserRouter as Router } from "react-router-dom";
+ import "bootstrap/dist/css/bootstrap.min.css";
 import store from "./redux/store";
 
 export type RootState = ReturnType<typeof store.getState>

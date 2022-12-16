@@ -7,20 +7,18 @@
   justify-content: space-between;
 }
 
-a {
-  text-decoration: none;
-  color: white;
-  padding: 20px;
-}
-a:hover{
-    color: aquamarine;
-}
-.header{
+.headerImage {
   background-color: yellow;
   color: white;
   margin-left: 50px;
 }
-.headerLink{
-  background-color: red;
-  margin-right: 100px;
+.image {
+  width: 60px;
+  height: 50px;
+}
+.headerLink {
+  // background-color: red;
+  margin-right: 200px;
+  text-align: center;
+  font-family: cursive;
 }

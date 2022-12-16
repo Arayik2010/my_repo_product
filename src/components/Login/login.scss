@@ -1,43 +1,41 @@
 .loginPage {
-    width: 1500px;
-    height: 93vh;
-    margin: 28px 18px;
-    background-color: #3eaef8;
-    position: absolute;
+  width: 1500px;
+  height: 93vh;
+  margin: 28px 18px;
+  background-color: #3eaef8;
+  position: absolute;
 }
 
 .login {
-    width: 200px;
-    height: 300px;
-    margin: 30px auto;
-    border: 2px solid silver;
-    border-radius: 10px;
-    padding: 20px;
-    background-color: white;
-    position: relative;
-    text-align: center;
+  width: 200px;
+  height: 300px;
+  margin: 30px auto;
+  border: 2px solid silver;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: white;
+  position: relative;
+  text-align: center;
 }
 
-
 .inputLogin {
-    border-radius: 8px;
-    margin: 10px 10px;
+  border-radius: 8px;
+  margin: 10px 10px;
 }
 
 .checkbox {
-    margin-right: 50px;
-    margin-bottom: 10px;
-    margin-top: 10px;
+  margin-right: 50px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 .email {
-    margin: 15px;
-    border-radius: 5px;
+  margin: 15px;
+  border-radius: 5px;
 }
-.pass{
-    border-radius: 5px;
+.pass {
+  border-radius: 5px;
 }
 .loginButton:hover {
-
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
 }

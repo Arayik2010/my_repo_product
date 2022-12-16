@@ -10,12 +10,14 @@ interface ProductsState {
   product: any[];
   loading: boolean;
   error: null | string;
+  productCount:number
 }
 
 const initialState: ProductsState = {
   product: [],
   loading: false,
   error: null,
+  productCount: 5,
 };
 
 export const productsDataReducer = (state = initialState, action: AnyAction): ProductsState => {
@@ -33,7 +35,7 @@ export const productsDataReducer = (state = initialState, action: AnyAction): Pr
     case FETCH_ADDPRODUCTS_SUCCESS:
       return {
         ...state,
-        product: [...state.product, ...action.payload],
+        product: [...state.product, action.payload],
       };
     case FETCH_PRODUCTS_ERROR:
       return {

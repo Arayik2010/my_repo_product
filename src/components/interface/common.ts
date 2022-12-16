@@ -15,6 +15,14 @@ export interface Iproduct {
     count: number;
   };
 }
+
+export interface aboutProduct {
+  id?: number;
+  name: string;
+  username: string;
+  email: string;
+  phone: string;
+}
 export const productData: Iproduct = {
   title: "",
   price: 13.5,

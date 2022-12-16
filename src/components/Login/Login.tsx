@@ -17,7 +17,7 @@ const Login = () => {
       localStorage.setItem("emaildata", "abc@gmail.com");
       localStorage.setItem("passwordData", "AR25ar#$");
     }
-    // window.location.reload();
+    //  window.location.reload();
   };
 
   return (
